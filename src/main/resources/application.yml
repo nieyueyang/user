@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        #nacos server
+        #server-addr: nacos-headless:8848
+      server-addr: nacos.ccb.com:80
+  application:
+    name: user
+
+server:
+  port: 8080
