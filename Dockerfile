@@ -8,3 +8,5 @@ ADD user-1.0.0.jar ./user/user.jar
 EXPOSE 8080 8080
 # 在镜像运行为容器后执行的命令
 ENTRYPOINT ["java","-jar","./user/user.jar"]
+
+
